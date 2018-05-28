@@ -1,5 +1,5 @@
 Name:          wait4port
-Version:       %
+Version:       0.1.0
 Release:       1
 Epoch:         0
 Summary:       Wait for tcp port to open
