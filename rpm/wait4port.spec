@@ -6,6 +6,7 @@ Summary:       Wait for tcp port to open
 AutoReqProv:   no
 BuildRoot:     %buildroot
 BuildArch:     x86_64
+Source0:       wait4port
 Prefix:        /
 Group:         Application/Internet
 License:       MIT
@@ -19,6 +20,9 @@ wait4port is a simple commandline tool to wait for a tcp port to become open.
 %prep
 %build
 %install
+cd $RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/usr/bin
+cp %{SOURCE0} $RPM_BUILD_ROOT/usr/bin/
 
 %clean
 rm -rf $RPM_BUILD_ROOT/*
