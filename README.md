@@ -13,8 +13,8 @@ go get -v github.com/joernott/wait4port
 wait4port accepts the following commandline parameters:
 
 |Short | Long            | Purpose |                         | Default     |
-|------|-----------------|-------------------------------------------------|
-|  -h  | --help          | help for wait4port                              |
+|------|-----------------|-----------------------------------|-------------|
+|  -h  | --help          | help for wait4port                |             |
 |  -s, | --server string | Server name                       | "localhost" |
 |  -p, | --port int      | Network port                      | 22          |
 |  -t, | --timeout int   | Timeout for connection in seconds | 30          |
