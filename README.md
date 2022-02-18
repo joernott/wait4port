@@ -21,3 +21,4 @@ Short | Long            | Purpose                           | Default
   -r  | --retry int     | Number of retries                 | 10          
   -w, | --wait int      | Seconds to wait between tries     | 30          
   -v, | --verbose       | Verbose output                    | false       
+
